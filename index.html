@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Friday Fun Day — Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Friday Fun Day</h1>
+    <div class="controls">
+      <button id="newBoard">New Board</button>
+      <button id="shuffle">Shuffle Tiles</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="board" class="board">
+      <!-- Categories and tiles injected here -->
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="closeModal" class="close">✕</button>
+      <img id="modalImage" src="" alt="" />
+      <p id="modalQuestion" class="question"></p>
+      <button id="showAnswer">Show Answer</button>
+      <p id="modalAnswer" class="answer hidden"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
